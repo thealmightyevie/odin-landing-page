@@ -46,6 +46,17 @@ body {
     align-items: center;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustrations {
+    display: flex;
+}
+
 /* Styling for raw elements */
 h1 {
     color: #F9FAF8;
