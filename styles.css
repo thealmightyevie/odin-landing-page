@@ -19,17 +19,27 @@ body {
     justify-content: space-between;
 }
 
+.container {
+    width: 900px;
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.introduction {
+    flex-wrap: wrap;
+}
+
 .main-text {
     font-size: 48px;
     font-weight: 800;
 }
 
-.container {
-    width: 900px;
-    display: flex;
-}
-
 .image {
+    height: 200px;
+    flex-basis: 100%;
     background-color: #6d747d;
 }
 
@@ -52,4 +62,14 @@ ul {
     list-style: none;
     display: flex;
     gap: 25px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    color: #F9F4F8;
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 16px; 
+    padding: 8px 25px;
 }
