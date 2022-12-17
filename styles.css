@@ -57,7 +57,7 @@ a {
     text-decoration: none;
 }
 
-p, a {
+.hero-para, a {
     font-size: 18px;
     color: #E5E7EB;
 }
