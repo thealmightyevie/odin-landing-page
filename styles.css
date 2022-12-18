@@ -61,6 +61,7 @@ body {
 .img-subtext {
     height: 150px;
     width: 150px;
+    text-align: center;
 }
 
 .illustration {
@@ -68,6 +69,13 @@ body {
     border-radius: 8px;
     height: 150px;
     width: 150px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.subtext {
+    font-size: 16px;
+    margin-top: 5px;
 }
 
 /* Styling for raw elements */
