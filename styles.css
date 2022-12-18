@@ -84,6 +84,24 @@ body {
 
 .quote {
     background-color: #E5E7EB;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 550px;
+}
+
+.text {
+    color: #1F2937;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
 }
 
 /* Styling for raw elements */
