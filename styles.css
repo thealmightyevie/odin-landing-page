@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
@@ -51,6 +53,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .info-container {
@@ -77,6 +80,10 @@ body {
 .subtext {
     font-size: 16px;
     margin-top: 5px;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
 
 /* Styling for raw elements */
