@@ -84,11 +84,17 @@ body {
 
 .quote {
     background-color: #E5E7EB;
-    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 900px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 90px 550px;
 }
 
 .text {
