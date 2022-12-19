@@ -7,12 +7,15 @@ body {
 }
 
 /* Hero section */
-.hero {
+.hero, .footer {
     background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
+    display: flex;   
     justify-content: center;
     align-items: center;
+}
+
+.hero {
+    flex-direction: column;
 }
 
 .header {
@@ -127,6 +130,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 100px;
+}
+
+/* Footer section */
+.footer {
+    height: 100px;
 }
 
 /* Styling for text and buttons */
