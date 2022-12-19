@@ -121,21 +121,32 @@ body {
 .action-container {
     background-color: #3882F6;
     width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
-/* Styling for raw elements */
+/* Styling for text and buttons */
 h1 {
     color: #F9FAF8;
     font-size: 24px;
     margin-bottom: 0;
 }
 
+.white-head {
+    color: #F9FAF8;
+}
+
 a { 
     text-decoration: none;
 }
 
-.hero-para, a {
+.white-p, p, a {
     font-size: 18px;
+}
+
+.white-p, a {
     color: #E5E7EB;
 }
 
@@ -148,7 +159,7 @@ ul {
 button {
     border: none;
     border-radius: 8px;
-    color: #F9F4F8;
+    color: #F9FAF8;
     background-color: #3882F6;
     font-weight: bold;
     font-size: 16px; 
