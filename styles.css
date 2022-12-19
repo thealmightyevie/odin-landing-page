@@ -6,6 +6,7 @@ body {
     flex-direction: column;
 }
 
+/* Hero section */
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -48,6 +49,7 @@ body {
     align-items: center;
 }
 
+/* Information section */
 .information {
     display: flex;
     flex-direction: column;
@@ -82,6 +84,7 @@ body {
     margin-top: 5px;
 }
 
+/* Quote section */
 .quote {
     background-color: #E5E7EB;
     display: flex;
@@ -107,6 +110,8 @@ body {
     display: flex;
     justify-content: end;
 }
+
+/* Call to Action section */
 
 /* Styling for raw elements */
 h1 {
